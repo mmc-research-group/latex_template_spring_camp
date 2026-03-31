@@ -1,0 +1,2 @@
+# latex_template_spring_camp
+泰岡研究室との春合宿で使う要旨を作成するためのLaTeXのテンプレート
