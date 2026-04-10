@@ -9,7 +9,7 @@ unzip latex_template_spring_camp.zip
 ```
 注意として，テンプレートとして利用することを前提としているため`git clone`は使わないこと．
 - LaTeXをローカルPCでインストールしている場合は，`template.tex`を開いてMacは`Command+option+b`，Windowsは`Ctrl+Alt+b`でコンパイルできる．
-- Overleafでコンパイルをする場合には設定からコンパイルのエンジンを`**LaTeX**`に変更してコンパイルすること．
+- Overleafでコンパイルをする場合には設定からコンパイルのエンジンを**LaTeX**に変更してコンパイルすること．
 
 ### 参考
 
