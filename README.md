@@ -3,11 +3,15 @@
 
 ## 使用方法
 右上の**Codeボタン**を押して「Download ZIP」をクリックしてPCに保存．自分のPC上で解凍して使用．
-解凍をコマンドでやりたい人は下記の通り．
+もしくは，ダウンロードしたいディレクトリまで移動して，以下のコードを実行する．
 ```
-unzip latex_template_spring_camp.zip
+git clone https://github.com/mmc-research-group/latex_template_spring_camp.git
+cd latex_template_spring_camp.git
+rm -rf .git
 ```
-注意として，テンプレートとして利用することを前提としているため`git clone`は使わないこと．
+上記を実行したのちにgit管理したい場合はリポジトリを初期化して新たなリポジトリを作り，githubでプライベートリポジトリとして管理する．
+
+注意として，テンプレートとして利用することを前提としているためこのリポジトリのgit履歴は削除してからgit管理を個人で行うこと．
 - LaTeXをローカルPCでインストールしている場合は，`template.tex`を開いてMacは`Command+option+b`，Windowsは`Ctrl+Alt+b`でコンパイルできる．
 - Overleafでコンパイルをする場合には設定からコンパイルのエンジンを**LaTeX**に変更してコンパイルすること．
 
